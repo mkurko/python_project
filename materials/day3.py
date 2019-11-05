@@ -56,6 +56,10 @@ liczby_parzyste=range(0,20,2)
 print (list(range(0,20,2)))
 print (tuple(range(0,20,2))) #krotka jest niemutowalna czyli nie mozna zmieniac tam wartosci
 
+
+#IMPORTANT !!!
+
+lista=list('abc', 'fafs')
 lista=list('abc')
 print (lista) # ['a', 'b', 'c']
 lista=['abc']
